@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap');
+@import "bootstrap/scss/bootstrap";
+
+$primary-color: #040303;
+$secondary-color: #d62246;
+$light-color: #f3f3f4;
+$light-variant: #9b9b9b;
 
 * {
   box-sizing: border-box;
@@ -7,9 +13,19 @@
 }
 
 .main-div {
-  h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 6em;
+  background-color: $light-color;
+  color: $light-variant;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+
+  .content-div {
+    width: 600px;
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-size: 6em;
+    }
   }
 }
