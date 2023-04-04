@@ -1,6 +1,6 @@
 import './todo.scss';
 import Todolist from './todo-list';
-import toDoForm from './toDoForm';
+import ToDoForm from './toDoForm';
 
 function Todo() {
   return (
@@ -9,7 +9,7 @@ function Todo() {
         <div className="col content-div">
           <h1 className="d-flex justify-content-center">todos</h1>
           <p className="d-flex justify-content-center">Best todo application in the world.</p>
-          <toDoForm />
+          <ToDoForm />
           <Todolist />
         </div>
       </div>

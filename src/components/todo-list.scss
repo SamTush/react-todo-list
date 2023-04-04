@@ -23,6 +23,11 @@ ul {
       padding: 0 10px;
     }
 
+    .completed {
+      text-decoration: line-through;
+      color: $light-variant;
+    }
+
     .item {
       width: 90%;
       padding: 8px 20px;

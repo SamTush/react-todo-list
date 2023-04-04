@@ -40,7 +40,12 @@ $white: #fff;
 
         .form-control {
           border: none;
+          color: $primary-color;
         }
+      }
+
+      button {
+        border: none;
       }
 
       .plus {
