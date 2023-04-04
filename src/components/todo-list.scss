@@ -1,0 +1,45 @@
+$primary-color: #040303;
+$secondary-color: #d62246;
+$light-color: #e3e3e3;
+$light-variant: #9b9b9b;
+$white: #fff;
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+
+  li {
+    display: flex;
+    padding: 4px 10px;
+    background-color: $light-color;
+    color: $primary-color;
+    border-radius: 3px;
+
+    .input {
+      width: 13px;
+      padding: 0 10px;
+    }
+
+    .item {
+      width: 90%;
+      padding: 8px 20px;
+      display: flex;
+      margin-bottom: 0;
+    }
+
+    .delete {
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .delete:hover {
+      color: $secondary-color;
+      cursor: pointer;
+    }
+  }
+}
