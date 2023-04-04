@@ -1,0 +1,15 @@
+$primary-color: #040303;
+$secondary-color: #d62246;
+$light-color: #f3f3f4;
+$light-variant: #a3a3a3;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-color: $light-color;
+  color: $light-variant;
+}
