@@ -14,6 +14,7 @@ const ToDoForm = () => {
     const updatedTodos = [...existingTodos, newTodo];
     localStorage.setItem('todos', JSON.stringify(updatedTodos));
     setTodo('');
+    window.location.reload();
   };
 
   return (
