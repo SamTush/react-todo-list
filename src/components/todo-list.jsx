@@ -19,7 +19,7 @@ const Todolist = () => {
     return () => {
       window.removeEventListener('storage', handleStorageChange);
     };
-  }, [todos]);
+  }, []);
 
   const handleDelete = (id) => {
     const updatedTodos = todos.filter((todo) => todo.id !== id);
